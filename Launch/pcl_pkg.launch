@@ -1,0 +1,4 @@
+<launch>
+    <node pkg = "pcl_pkg" type = "pcl_pkg1" name= "xyz" output = "screen">
+    <param name = "distance threshold" type = "double" value = "30"/> </node>
+</launch>
